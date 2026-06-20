@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio de Proyectos | Denisse</title>
+
+    <!-- LINK DE GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- LINK DE TU CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="body-page">
+
+    <header id="main-header">
+        <h1>Mis Proyectos Realizados</h1>
+        <p>Portafolio de tatuaje, arte y proyectos académicos</p>
+    </header>
+
+    <main class="container">
+
+        <!-- CARD 1 -->
+        <article class="card">
+            
+            <h2>Diseño de Tatuaje Personalizado</h2>
+            
+            <p>
+                Proyecto enfocado en la creación de un diseño de tatuaje original, personalizado,
+                adaptado a los gustos del cliente y aplicando principios de arte y composición.
+            </p>
+
+            <ul>
+                <li>Diseño artístico</li>
+                <li>Ilustración digital en AdobeFresco</li>
+                <li>Creatividad visual</li>
+            </ul>
+
+            <div class="buttons">
+                <a href="#" class="btn">Ver Demo</a>
+                <a href="#" class="btn btn-secondary">Código</a>
+            </div>
+            <h3 class="gallery-title">Galería del proyecto</h3>
+
+<div class="gallery">
+    <img src="Tattoo1.jpeg" alt="Imagen 1 del proyecto">
+    <img src="Tattoo2.jpeg" alt="Imagen 2 del proyecto">
+    <img src="Diseño.png" alt="Imagen 3 del proyecto">
+</div>
+
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="card">
+            
+            <h2>Actividad Académica</h2>
+            
+            <p>
+                Proyecto realizado como parte de la carrera de Diseño digital y animación, 
+                aplicando tecnicas de fotografia, montaje y funciones digitales de edicion.
+            
+            </p>
+
+            <ul>
+                <li>AutoCAD</li>
+                <li>Canva</li>
+                <li>Inkscape</li>
+            </ul>
+
+            <div class="buttons">
+                <a href="#" class="btn">Ver Demo</a>
+                <a href="#" class="btn btn-secondary">Código</a>
+            </div>
+
+            <h3 class="gallery-title">Galería del proyecto</h3>
+
+<div class="gallery">
+    <img src="Proyecto1.png" alt="Imagen 3 del proyecto">
+    <img src="Proyecto2.jpeg" alt="Imagen 3 del proyecto">
+    <img src="Proyecto3.png" alt="Imagen 3 del proyecto">
+</div>       
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="card">
+            
+            <h2>Arte Personalizado</h2>
+            
+            <p>
+                Creación de piezas artísticas hechas a mano, enfocadas en retratos
+                y arte personalizado para clientes.
+            </p>
+
+            <ul>
+                <li>Acrílico</li>
+                <li>Acuarela</li>
+                <li>Detalles personalizados</li>
+            </ul>
+
+            <div class="buttons">
+                <a href="#" class="btn">Ver Demo</a>
+                <a href="#" class="btn btn-secondary">Código</a>
+            </div>
+
+            <h3 class="gallery-title">Galería del proyecto</h3>
+
+<div class="gallery">
+    <img src="Pintura1.jpeg" alt="Imagen 3 del proyecto">
+    <img src="Dibujo2.jpeg" alt="Imagen 3 del proyecto">
+    <img src="Pintura3.jpeg" alt="Imagen 3 del proyecto">
+</div>
+        </article>
+
+    </main>
+    <footer id="main-footer">
+        <p>© 2025 - Portafolio de Denisse Ll</p>
+    </footer>
+
+</body>
+</html>

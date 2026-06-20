@@ -1,0 +1,78 @@
+/* Selectores de etiqueta */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2effa;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Selector de clase */
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Selector de ID */
+#form-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inputs */
+input, select, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Pseudoclases */
+input:focus,
+textarea:focus {
+    border-color: #7b5cff;
+    outline: none;
+}
+
+button:hover {
+    background-color: #5d3fd3;
+}
+
+/* Botones */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #7b5cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Pseudoelementos */
+label::after {
+    content: " *";
+    color: red;
+}
+
+h1::first-letter {
+    font-size: 40px;
+}
+
+/* Clases */
+.terminos {
+    margin-top: 15px;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+}
