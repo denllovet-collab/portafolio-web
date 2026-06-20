@@ -1,0 +1,89 @@
+
+body {
+    /* CAMBIO CLAVE AQUÍ */
+    /* El navegador intentará cargar 'Georgia'. Si no puede, usará 'Times New Roman'. Si tampoco puede, usará cualquier fuente 'serif' disponible. */
+    font-family: Georgia, "Times New Roman", serif; 
+    
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6FA; 
+    color: #333;
+    text-align: center;
+}
+
+
+h1, h2 {
+    /* CAMBIO A LILA MEDIO (MEDIUM PURPLE) */
+    color: #9370DB; 
+}
+
+/* Enlaces y Conectividad */
+a {
+    /* CAMBIO A LILA INTENSO (PLUM) */
+    color: #DDA0DD; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none; 
+    padding: 5px 0;
+}
+
+
+/* Estilo para la autobiografía, manteniendo un fondo blanco suave */
+.texto-destacado {
+    font-size: 1.1em;
+    color: #555;
+    padding: 15px;
+    /* Borde en lila intenso */
+    border-left: 5px solid #DDA0DD;
+    background-color: #f8f8ff; /* Blanco flor suave */
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    text-align: left;
+}
+
+.dato-importante {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin: 5px auto;
+    width: fit-content;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+
+/* Borde de la imagen */
+#foto-principal {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; 
+    /* CAMBIO DE COLOR DEL BORDE */
+    border: 5px solid #9370DB; 
+    margin: 20px auto;
+    display: block;
+}
+
+/* Estilo para el encabezado principal */
+#encabezado-principal {
+    background-color: #ffffff;
+    padding: 20px;
+    /* Borde inferior en lila intenso */
+    border-bottom: 2px solid #DDA0DD; 
+}
+
+/* Estilos de maquetación y pie de página */
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4B0082; /* Tono oscuro para contraste (Índigo) */
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
